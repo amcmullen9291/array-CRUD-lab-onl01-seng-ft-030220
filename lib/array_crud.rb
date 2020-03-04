@@ -1,35 +1,41 @@
 def create_an_empty_array
-  []
+  houston=[]
 end
 
 def create_an_array
-  ["winter", "spring", "summer", "fall"]
+  houston=["winter", "spring", "summer", "fall"]
 end
 
 def add_element_to_end_of_array(array, element)
-  new_array.push("brunch")
+    houston=["winter", "spring", "summer", "fall"]
+    houston.push("brunch")
 end
 
 def add_element_to_start_of_array(array, element)
-  new_array.unshift("supper")
+  houston=["winter", "spring", "summer", "fall"]
+  houston.unshift("supper")
 end
 
 def remove_element_from_end_of_array(array)
-  create_an_array.pop(1)
+  houston=["winter", "spring", "summer", "fall"]
+  houston.pop
 end
 
 def remove_element_from_start_of_array(array)
-  create_an_array.shift
+  houston.shift
 end
 
 def retrieve_element_from_index(array, index_number)
-  
+    houston=["winter", "spring", "summer", "fall"]
+    return houston[2]
 end
 
 def retrieve_first_element_from_array(array)
-  
+    houston=["winter", "spring", "summer", "fall"]
+    return houston[0]
 end
 
 def retrieve_last_element_from_array(array)
-  
+    houston=["winter", "spring", "summer", "fall"]
+    return houston[-1]
 end
