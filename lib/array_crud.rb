@@ -23,7 +23,7 @@ end
 
 def remove_element_from_start_of_array(array)
   houston=["wow", "spring", "summer", "arrays!"]
-  houston.shift
+  houston.drop(0)
 end
 
 def retrieve_element_from_index(array, index_number)
